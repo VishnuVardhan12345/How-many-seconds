@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+main()
+{
+	cout<<"---------------24 hours clock-----------------";
+	int h,m,s;
+	cout<<"\nEnter Hours : ";
+	cin>>h;
+    cout<<"\nEnter Minutes : ";
+    cin>>m;
+	cout<<"\nEnter Seconds : ";
+	cin>>s;
+	cout<<"\nThe time is = "<<h<<":"<<m<<":"<<s;
+	cout<<"\nThe total in seconds is:"<<h*3600+m*60+s;
+}
